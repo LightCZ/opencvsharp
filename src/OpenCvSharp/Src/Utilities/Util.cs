@@ -6,7 +6,7 @@ using System.Text;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp.Utilities
+namespace OpenCvSharp2.Utilities
 {
     /// <summary>
     /// 
@@ -195,7 +195,7 @@ namespace OpenCvSharp.Utilities
                 return (T)(object)ptr;
             }
             // Pointer<U>は一段階読み込んで実体化
-            if (CheckType(t, typeof(OpenCvSharp.Pointer<>)))
+            if (CheckType(t, typeof(OpenCvSharp2.Pointer<>)))
             {
                 //ptr = (IntPtr)Marshal.PtrToStructure(ptr, typeof(IntPtr));
                 ptr = Marshal.ReadIntPtr(ptr);

@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using OpenCvSharp.Extensions;
+using OpenCvSharp2.Extensions;
 
-namespace OpenCvSharp.UserInterface
+namespace OpenCvSharp2.UserInterface
 {
 #if LANG_JP
     /// <summary>

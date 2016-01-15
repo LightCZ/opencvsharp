@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     // ReSharper disable InconsistentNaming
 

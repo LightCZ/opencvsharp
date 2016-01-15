@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// A matrix whose element is 64FC1 (cv::Mat_&lt;double&gt;)

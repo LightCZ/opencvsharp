@@ -4,13 +4,13 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Security;
 using System.Security.Permissions;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
 #pragma warning disable 1591
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 #if LANG_JP
     /// <summary>

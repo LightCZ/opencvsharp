@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     internal delegate TResult Func<in T1, out TResult>(T1 t1);
 

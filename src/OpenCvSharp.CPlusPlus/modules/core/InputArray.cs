@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using OpenCvSharp.CPlusPlus.Gpu;
+using OpenCvSharp2.CPlusPlus.Gpu;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Proxy datatype for passing Mat's and vector&lt;&gt;'s as input parameters

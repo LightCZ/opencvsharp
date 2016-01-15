@@ -1,4 +1,4 @@
-﻿namespace OpenCvSharp.UserInterface
+﻿namespace OpenCvSharp2.UserInterface
 {
     partial class TrackbarWithLabel
     {

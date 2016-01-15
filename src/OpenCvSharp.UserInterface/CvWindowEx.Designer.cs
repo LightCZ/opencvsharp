@@ -1,4 +1,4 @@
-﻿namespace OpenCvSharp.UserInterface
+﻿namespace OpenCvSharp2.UserInterface
 {
     partial class CvWindowEx
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this._panelTrackbar = new System.Windows.Forms.Panel();
-            this._pictureBox = new OpenCvSharp.UserInterface.PictureBoxIpl();
+            this._pictureBox = new OpenCvSharp2.UserInterface.PictureBoxIpl();
             ((System.ComponentModel.ISupportInitialize)(this._pictureBox)).BeginInit();
             this.SuspendLayout();
             // 

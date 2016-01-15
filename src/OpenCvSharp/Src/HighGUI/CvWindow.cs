@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 #if LANG_JP
     /// <summary>

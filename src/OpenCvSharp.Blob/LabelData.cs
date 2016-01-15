@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// Label values for each pixel

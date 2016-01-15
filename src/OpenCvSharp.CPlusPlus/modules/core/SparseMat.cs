@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Sparse matrix class.

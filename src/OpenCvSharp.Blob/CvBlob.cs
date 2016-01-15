@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// Struct that contain information about one blob.

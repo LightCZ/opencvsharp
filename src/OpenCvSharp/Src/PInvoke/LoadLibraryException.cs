@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 #pragma warning disable 1591
 

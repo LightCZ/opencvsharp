@@ -1,7 +1,7 @@
 ﻿
 #pragma warning disable 1591
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 #if LANG_JP
 	/// <summary>

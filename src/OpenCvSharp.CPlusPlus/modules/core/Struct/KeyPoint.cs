@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
-using OpenCvSharp;
+using OpenCvSharp2;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #if LANG_JP
     /// <summary>

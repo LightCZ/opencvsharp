@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 #if LANG_JP
     /// <summary>

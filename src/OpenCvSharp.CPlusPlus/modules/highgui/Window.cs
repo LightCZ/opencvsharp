@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #if LANG_JP
     /// <summary>
@@ -308,7 +308,7 @@ namespace OpenCvSharp.CPlusPlus
 #endif
         public IntPtr Handle
         {
-            get { return OpenCvSharp.NativeMethods.cvGetWindowHandle(name); }
+            get { return OpenCvSharp2.NativeMethods.cvGetWindowHandle(name); }
         }
 
         /// <summary>
@@ -373,7 +373,7 @@ namespace OpenCvSharp.CPlusPlus
 #endif
         public static bool HasQt
         {
-            get { return OpenCvSharp.NativeMethods.HasQt; }
+            get { return OpenCvSharp2.NativeMethods.HasQt; }
         }
         #endregion
 

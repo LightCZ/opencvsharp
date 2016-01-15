@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.Extensions
+namespace OpenCvSharp2.Extensions
 {
 #if LANG_JP
     /// <summary>

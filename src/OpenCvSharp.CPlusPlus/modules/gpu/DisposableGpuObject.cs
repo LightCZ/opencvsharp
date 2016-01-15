@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.CPlusPlus.Gpu
+namespace OpenCvSharp2.CPlusPlus.Gpu
 {
     /// <summary>
     /// An abstract class in GPU module that implements DisposableCvObject

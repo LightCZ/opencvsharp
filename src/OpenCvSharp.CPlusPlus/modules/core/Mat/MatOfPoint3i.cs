@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// A matrix whose element is cv::Point3i [CV_32SC3] (cv::Mat_&lt;cv::Point3i&gt;)

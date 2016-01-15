@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using OpenCvSharp.CPlusPlus.Flann;
+using OpenCvSharp2.CPlusPlus.Flann;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     // ReSharper disable once InconsistentNaming
 

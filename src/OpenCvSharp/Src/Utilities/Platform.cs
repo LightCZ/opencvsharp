@@ -2,7 +2,7 @@
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp.Utilities
+namespace OpenCvSharp2.Utilities
 {
     internal enum OS
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
-using OpenCvSharp.CPlusPlus;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.CPlusPlus;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp.Extensions
+namespace OpenCvSharp2.Extensions
 {
     static partial class BitmapConverter
     {

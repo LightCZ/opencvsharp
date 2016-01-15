@@ -219,13 +219,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenCvSharp.Blob\OpenCvSharp.Blob.csproj">
+    <ProjectReference Include="..\OpenCvSharp.Blob\OpenCvSharp2.Blob.csproj">
       <Project>{383ae960-7f56-47a4-bff2-b2b81b6a49b5}</Project>
-      <Name>OpenCvSharp.Blob</Name>
+      <Name>OpenCvSharp2.Blob</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp.csproj">
+    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp2.csproj">
       <Project>{4c2356b8-1a1e-4f92-a51c-a49ca116867f}</Project>
-      <Name>OpenCvSharp</Name>
+      <Name>OpenCvSharp2</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

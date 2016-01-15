@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
-using OpenCvSharp;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #if LANG_JP
     /// <summary>

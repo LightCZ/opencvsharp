@@ -1,7 +1,7 @@
 ﻿#pragma warning disable 1591
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     public struct IplROI
     {

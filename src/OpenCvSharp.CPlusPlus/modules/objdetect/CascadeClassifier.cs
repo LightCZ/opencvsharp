@@ -4,7 +4,7 @@ using System.IO;
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Cascade classifier class for object detection.

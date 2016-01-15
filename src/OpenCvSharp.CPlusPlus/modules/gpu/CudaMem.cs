@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.CPlusPlus.Gpu
+namespace OpenCvSharp2.CPlusPlus.Gpu
 {
 #if LANG_JP
     /// <summary>

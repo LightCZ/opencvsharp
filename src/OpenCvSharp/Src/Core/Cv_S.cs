@@ -5,9 +5,9 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     public static partial class Cv
     {

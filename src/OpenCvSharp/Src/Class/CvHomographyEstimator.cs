@@ -2,7 +2,7 @@
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     public abstract class CvModelEstimator2
     {

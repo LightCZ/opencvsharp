@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
 
 #if LANG_JP

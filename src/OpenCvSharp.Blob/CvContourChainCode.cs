@@ -19,7 +19,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// 

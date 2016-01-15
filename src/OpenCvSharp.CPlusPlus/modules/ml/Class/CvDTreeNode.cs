@@ -6,7 +6,7 @@ using System.Text;
 #pragma warning disable 1591
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
     internal unsafe struct WCvDTreeNode

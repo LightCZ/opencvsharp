@@ -1,5 +1,5 @@
 ﻿
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     // ReSharper disable InconsistentNaming
 

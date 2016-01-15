@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// Constants which are defined by cvblob

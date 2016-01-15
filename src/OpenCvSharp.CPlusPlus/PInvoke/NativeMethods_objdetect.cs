@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 #pragma warning disable 1591
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     static partial class NativeMethods
     {

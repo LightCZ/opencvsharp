@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace OpenCvSharp.CPlusPlus.Gpu
+namespace OpenCvSharp2.CPlusPlus.Gpu
 {
 #if LANG_JP
     /// <summary>

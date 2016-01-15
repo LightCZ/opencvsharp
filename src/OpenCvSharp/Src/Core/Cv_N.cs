@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     public static partial class Cv
     {

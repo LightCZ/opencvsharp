@@ -5,19 +5,18 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F1110C7B-46B1-4504-871E-135B57F9DE67}</ProjectGuid>
+    <ProjectGuid>{383AE960-7F56-47A4-BFF2-B2B81B6A49B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenCvSharp.Extensions</RootNamespace>
-    <AssemblyName>OpenCvSharp.Extensions</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <RootNamespace>OpenCvSharp2.Blob</RootNamespace>
+    <AssemblyName>OpenCvSharp2.Blob</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,6 +27,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,17 +37,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release\OpenCvSharp.Extensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\OpenCvSharp2.Blob.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release JP|AnyCPU' ">
     <OutputPath>bin\Release JP\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release JP\OpenCvSharp.Extensions.XML</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DocumentationFile>bin\Release JP\OpenCvSharp2.Blob.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -56,38 +54,41 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationCore">
-      <RequiredTargetFramework>3.0</RequiredTargetFramework>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="WindowsBase">
-      <RequiredTargetFramework>3.0</RequiredTargetFramework>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Binarizer.cs" />
-    <Compile Include="BitmapConverter_IplImage.cs" />
-    <Compile Include="BitmapConverter_Mat.cs" />
-    <Compile Include="CvExtensions.cs" />
-    <Compile Include="MyParallel.cs" />
-    <Compile Include="Platform.cs" />
+    <Compile Include="BlobRenderer.cs" />
+    <Compile Include="CvBlob.cs" />
+    <Compile Include="CvBlobLib.cs" />
+    <Compile Include="CvBlobs.cs" />
+    <Compile Include="CvChainCode.cs" />
+    <Compile Include="CvContourChainCode.cs" />
+    <Compile Include="CvContourPolygon.cs" />
+    <Compile Include="CvTrack.cs" />
+    <Compile Include="CvTracks.cs" />
+    <Compile Include="LabelData.cs" />
+    <Compile Include="Labeller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WriteableBitmapConverter_Mat.cs" />
-    <Compile Include="WriteableBitmapConverter_IplImage.cs" />
-    <Compile Include="BitmapSourceConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CvBlobConst.cs" />
+    <Content Include="ReadMe.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="ProximityMatrix.cs" />
+    <Compile Include="RenderBlobsMode.cs" />
+    <Compile Include="RenderTracksMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Key.snk" />
+    <None Include="OpenCvSharp.Blob.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenCvSharp.CPlusPlus\OpenCvSharp.CPlusPlus.csproj">
-      <Project>{524cc7b4-75b9-4925-9da4-3dacd40f4814}</Project>
-      <Name>OpenCvSharp.CPlusPlus</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp.csproj">
-      <Project>{4c2356b8-1a1e-4f92-a51c-a49ca116867f}</Project>
-      <Name>OpenCvSharp</Name>
+    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp2.csproj">
+      <Project>{4C2356B8-1A1E-4F92-A51C-A49CA116867F}</Project>
+      <Name>OpenCvSharp2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

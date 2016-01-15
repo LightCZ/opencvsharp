@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OpenCvSharp.Utilities
+namespace OpenCvSharp2.Utilities
 {
     /// <summary>
     /// Class to get address of string array

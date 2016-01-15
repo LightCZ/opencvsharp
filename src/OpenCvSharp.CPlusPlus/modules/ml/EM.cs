@@ -2,7 +2,7 @@
 
 // ReSharper disable once InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #if LANG_JP
     /// <summary>

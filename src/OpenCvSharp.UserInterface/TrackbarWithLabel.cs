@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace OpenCvSharp.UserInterface
+namespace OpenCvSharp2.UserInterface
 {
 #if LANG_JP
     /// <summary>

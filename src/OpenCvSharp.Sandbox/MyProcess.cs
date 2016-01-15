@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-namespace OpenCvSharp.Sandbox
+namespace OpenCvSharp2.Sandbox
 {
     /// <summary>
     /// 

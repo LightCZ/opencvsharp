@@ -5,7 +5,7 @@ using System.Text;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
     internal unsafe struct WCvBGCodeBookModel

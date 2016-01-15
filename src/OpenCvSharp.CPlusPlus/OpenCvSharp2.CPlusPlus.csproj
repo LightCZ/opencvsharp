@@ -8,9 +8,9 @@
     <ProjectGuid>{524CC7B4-75B9-4925-9DA4-3DACD40F4814}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenCvSharp.CPlusPlus</RootNamespace>
-    <AssemblyName>OpenCvSharp.CPlusPlus</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <RootNamespace>OpenCvSharp2.CPlusPlus</RootNamespace>
+    <AssemblyName>OpenCvSharp2.CPlusPlus</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -43,6 +43,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -52,10 +53,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release\OpenCvSharp.CPlusPlus.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\OpenCvSharp2.CPlusPlus.xml</DocumentationFile>
     <NoWarn>
     </NoWarn>
     <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release JP|AnyCPU' ">
     <OutputPath>bin\Release JP\</OutputPath>
@@ -65,7 +67,8 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DocumentationFile>bin\Release JP\OpenCvSharp.CPlusPlus.XML</DocumentationFile>
+    <DocumentationFile>bin\Release JP\OpenCvSharp2.CPlusPlus.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -385,9 +388,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp.csproj">
+    <ProjectReference Include="..\OpenCvSharp\OpenCvSharp2.csproj">
       <Project>{4c2356b8-1a1e-4f92-a51c-a49ca116867f}</Project>
-      <Name>OpenCvSharp</Name>
+      <Name>OpenCvSharp2</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

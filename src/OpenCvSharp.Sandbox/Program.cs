@@ -7,15 +7,15 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
-using OpenCvSharp.Blob;
-using OpenCvSharp.CPlusPlus;
-using OpenCvSharp.CPlusPlus.Gpu;
-using OpenCvSharp.Extensions;
-using Point = OpenCvSharp.CPlusPlus.Point;
-using Rect = OpenCvSharp.CPlusPlus.Rect;
-using Size = OpenCvSharp.CPlusPlus.Size;
+using OpenCvSharp2.Blob;
+using OpenCvSharp2.CPlusPlus;
+using OpenCvSharp2.CPlusPlus.Gpu;
+using OpenCvSharp2.Extensions;
+using Point = OpenCvSharp2.CPlusPlus.Point;
+using Rect = OpenCvSharp2.CPlusPlus.Rect;
+using Size = OpenCvSharp2.CPlusPlus.Size;
 
-namespace OpenCvSharp.Sandbox
+namespace OpenCvSharp2.Sandbox
 {
     /// <summary>
     /// Simple codes for debugging

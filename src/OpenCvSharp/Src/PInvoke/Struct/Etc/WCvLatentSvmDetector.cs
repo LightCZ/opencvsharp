@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
     internal unsafe struct WCvLatentSvmDetector

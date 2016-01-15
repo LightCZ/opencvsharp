@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     static partial class Cv2
     {

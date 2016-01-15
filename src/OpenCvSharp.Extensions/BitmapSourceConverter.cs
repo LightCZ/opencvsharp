@@ -5,9 +5,9 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Interop;
-using OpenCvSharp.CPlusPlus;
+using OpenCvSharp2.CPlusPlus;
 
-namespace OpenCvSharp.Extensions
+namespace OpenCvSharp2.Extensions
 {
 #if LANG_JP
     /// <summary>

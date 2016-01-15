@@ -1,25 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.UserInterface", "OpenCvSharp.UserInterface\OpenCvSharp.UserInterface.csproj", "{DB12E2F1-1A50-4D12-A92F-4C3D705ECC1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.UserInterface", "OpenCvSharp.UserInterface\OpenCvSharp2.UserInterface.csproj", "{DB12E2F1-1A50-4D12-A92F-4C3D705ECC1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.Extensions", "OpenCvSharp.Extensions\OpenCvSharp.Extensions.csproj", "{F1110C7B-46B1-4504-871E-135B57F9DE67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.Extensions", "OpenCvSharp.Extensions\OpenCvSharp2.Extensions.csproj", "{F1110C7B-46B1-4504-871E-135B57F9DE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.Blob", "OpenCvSharp.Blob\OpenCvSharp.Blob.csproj", "{383AE960-7F56-47A4-BFF2-B2B81B6A49B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.Blob", "OpenCvSharp.Blob\OpenCvSharp2.Blob.csproj", "{383AE960-7F56-47A4-BFF2-B2B81B6A49B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.CPlusPlus", "OpenCvSharp.CPlusPlus\OpenCvSharp.CPlusPlus.csproj", "{524CC7B4-75B9-4925-9DA4-3DACD40F4814}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.CPlusPlus", "OpenCvSharp.CPlusPlus\OpenCvSharp2.CPlusPlus.csproj", "{524CC7B4-75B9-4925-9DA4-3DACD40F4814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.ReleaseMaker", "OpenCvSharp.ReleaseMaker\OpenCvSharp.ReleaseMaker.csproj", "{E2C8C528-B7C7-40AF-BB7F-1147A41E2E23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.ReleaseMaker", "OpenCvSharp.ReleaseMaker\OpenCvSharp2.ReleaseMaker.csproj", "{E2C8C528-B7C7-40AF-BB7F-1147A41E2E23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp", "OpenCvSharp\OpenCvSharp.csproj", "{4C2356B8-1A1E-4F92-A51C-A49CA116867F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2", "OpenCvSharp\OpenCvSharp2.csproj", "{4C2356B8-1A1E-4F92-A51C-A49CA116867F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCvSharpExtern", "OpenCvSharpExtern\OpenCvSharpExtern.vcxproj", "{8E7279F8-F801-4672-B42F-1ED2C68B16A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.NUnitTest", "OpenCvSharp.NUnitTest\OpenCvSharp.NUnitTest.csproj", "{76A4E76B-0A98-411D-92E9-5527B31EBA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp.Sandbox", "OpenCvSharp.Sandbox\OpenCvSharp.Sandbox.csproj", "{C76C33E0-6F2E-49DF-ABD2-02053CB4CCB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCvSharp2.Sandbox", "OpenCvSharp.Sandbox\OpenCvSharp2.Sandbox.csproj", "{C76C33E0-6F2E-49DF-ABD2-02053CB4CCB5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCvSharp.SandboxCpp", "OpenCvSharp.SandboxCpp\OpenCvSharp.SandboxCpp.vcxproj", "{8516D7EB-E716-4BC1-92DB-751E6BF13AE1}"
 EndProject

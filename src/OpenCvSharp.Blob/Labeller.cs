@@ -22,7 +22,7 @@ using System.Text;
 // You should have received a copy of the Lesser GNU General Public License
 // along with cvBlob.  If not, see <http://www.gnu.org/licenses/>.
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// 

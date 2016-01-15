@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #pragma warning disable 1591
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]

@@ -1,5 +1,5 @@
 ﻿
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Method for solving a PnP problem:

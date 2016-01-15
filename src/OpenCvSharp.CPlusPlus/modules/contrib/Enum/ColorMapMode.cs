@@ -2,7 +2,7 @@
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Flags for applyColorMap

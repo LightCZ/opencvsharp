@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using OpenCvSharp.CPlusPlus.Detail;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.CPlusPlus.Detail;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 #pragma warning disable 1591
     // ReSharper disable InconsistentNaming

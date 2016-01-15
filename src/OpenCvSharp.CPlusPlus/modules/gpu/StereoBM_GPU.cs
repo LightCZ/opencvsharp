@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2.Utilities;
 
-namespace OpenCvSharp.CPlusPlus.Gpu
+namespace OpenCvSharp2.CPlusPlus.Gpu
 {
     // ReSharper disable InconsistentNaming
 

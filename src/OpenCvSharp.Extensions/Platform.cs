@@ -4,7 +4,7 @@ using System.Text;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp.Extensions
+namespace OpenCvSharp2.Extensions
 {
     /// <summary>
     /// 

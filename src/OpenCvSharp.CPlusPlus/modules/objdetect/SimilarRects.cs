@@ -2,7 +2,7 @@
 
 // ReSharper disable InconsistentNaming
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Class for grouping object candidates, detected by Cascade Classifier, HOG etc.

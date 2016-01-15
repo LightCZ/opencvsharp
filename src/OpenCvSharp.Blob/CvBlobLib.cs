@@ -2,7 +2,7 @@
 
 //#pragma warning disable 1591
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
     /// <summary>
     /// Functions of cvblob library

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
 
 #if LANG_JP

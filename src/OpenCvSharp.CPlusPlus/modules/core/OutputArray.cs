@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using OpenCvSharp;
-using OpenCvSharp.CPlusPlus.Gpu;
+using OpenCvSharp2;
+using OpenCvSharp2.CPlusPlus.Gpu;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Proxy datatype for passing Mat's and List&lt;&gt;'s as output parameters

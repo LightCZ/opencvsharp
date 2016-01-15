@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Text;
-using OpenCvSharp.CPlusPlus.Flann;
+using OpenCvSharp2.CPlusPlus.Flann;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     static partial class NativeMethods
     {

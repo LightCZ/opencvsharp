@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Security;
 using System.Security.Permissions;
-using OpenCvSharp;
-using OpenCvSharp.Utilities;
+using OpenCvSharp2;
+using OpenCvSharp2.Utilities;
 
 // ReSharper disable InconsistentNaming
 #pragma warning disable 1591
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// P/Invoke methods of OpenCV 2.x C++ interface
@@ -27,7 +27,7 @@ namespace OpenCvSharp.CPlusPlus
         /// </summary>
         public const string DllExtern = "OpenCvSharpExtern";
 
-        public const string Version = OpenCvSharp.NativeMethods.Version;
+        public const string Version = OpenCvSharp2.NativeMethods.Version;
         public const string DllContrib = "opencv_contrib" + Version;
         public const string DllGpu = "opencv_gpu" + Version;
         public const string DllNonfree = "opencv_nonfree" + Version;
@@ -54,12 +54,12 @@ namespace OpenCvSharp.CPlusPlus
         /// <param name="additionalPaths"></param>
         public static void LoadLibraries(IEnumerable<string> additionalPaths = null)
         {
-            if (OpenCvSharp.NativeMethods.IsUnix())
+            if (OpenCvSharp2.NativeMethods.IsUnix())
                 return;
 
             string[] ap = EnumerableEx.ToArray(additionalPaths);
 
-            OpenCvSharp.NativeMethods.LoadLibraries(ap);
+            OpenCvSharp2.NativeMethods.LoadLibraries(ap);
 
             // contrib: core, flann, imgproc, highgui, features2d, calib3d, ml, video, objdetect 
             WindowsLibraryLoader.Instance.LoadLibrary(DllContrib, ap);

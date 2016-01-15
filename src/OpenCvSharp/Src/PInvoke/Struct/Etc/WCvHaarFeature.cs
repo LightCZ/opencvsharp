@@ -5,7 +5,7 @@ using System.Text;
 
 #pragma warning disable 1591
 
-namespace OpenCvSharp
+namespace OpenCvSharp2
 {
     //#define CV_HAAR_FEATURE_MAX  3
 

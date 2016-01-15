@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace OpenCvSharp.Blob
+namespace OpenCvSharp2.Blob
 {
 	/// <summary>
     /// Render mode of cvRenderBlobs

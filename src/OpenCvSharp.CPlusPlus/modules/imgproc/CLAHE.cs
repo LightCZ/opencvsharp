@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OpenCvSharp.CPlusPlus
+namespace OpenCvSharp2.CPlusPlus
 {
     /// <summary>
     /// Contrast Limited Adaptive Histogram Equalization

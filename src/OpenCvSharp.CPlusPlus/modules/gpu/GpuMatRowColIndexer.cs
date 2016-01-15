@@ -1,4 +1,4 @@
-namespace OpenCvSharp.CPlusPlus.Gpu
+namespace OpenCvSharp2.CPlusPlus.Gpu
 {
     /// <summary>
     /// 

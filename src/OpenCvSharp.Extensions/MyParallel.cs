@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace OpenCvSharp.Extensions
+namespace OpenCvSharp2.Extensions
 {
     /// <summary>
     /// Task Parallel Library for .NET 2.0

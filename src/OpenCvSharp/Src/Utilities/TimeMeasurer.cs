@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace OpenCvSharp.Utilities
+namespace OpenCvSharp2.Utilities
 {
     /// <summary>
     /// Substitute of System.Action

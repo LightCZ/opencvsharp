@@ -70,7 +70,7 @@ namespace OpenCvSharp2
         {
             cvLoadCalled = false;
 
-            LoadLibraries();
+            LoadLibraries(WindowsLibraryLoader.Instance.AdditionalPaths);
 
             // checks P/Invoke can be done          
             PInvokeHelper.TryPInvoke();
